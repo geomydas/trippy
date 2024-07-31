@@ -13,7 +13,7 @@ body {
 div {
   background-image: linear-gradient(black, white);
   aspect-ratio: 1;
-  padding: 2vw;
+  padding: clamp(1px, 2vw, 0.9rem);
   animation: rotate 40s alternate infinite;
 }
 @keyframes rotate {
